@@ -5,10 +5,17 @@ using namespace std;
 
 int main(void)
 {
+   int anoNascimento;
    string nome;
    cout << "Digite o seu nome: ";
    cin >> nome;
-   cout << "Bom dia, " << nome << ", tenha um bom curso.";
-   cout << endl;
+   cout << "Bom dia, " << nome << ", tenha um bom curso."
+        << endl;
+   cout << nome << ", voce nasceu em que ano? ";
+   cin >> anoNascimento;
+   cout << "Consderando que estamos em 2023, ou voce tem "
+        << 2023 - anoNascimento
+        << " anos, ou esta proximo de fazer."
+        << endl;
    return 0;
 }
