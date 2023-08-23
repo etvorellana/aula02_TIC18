@@ -5,8 +5,8 @@ using namespace std;
 
 int main(void)
 {
-   int anoNascimento;
    string nome;
+   int anoNascimento;
    cout << "Digite o seu nome: ";
    cin >> nome;
    cout << "Bom dia, " << nome << ", tenha um bom curso."
